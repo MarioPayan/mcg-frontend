@@ -1,0 +1,19 @@
+body {
+  background-image: url("/wallpaper.jpg");
+  background-color: #cccccc;
+ }
+
+.App {
+  text-align: center;
+  .main-logo {
+    width: 400px;
+    padding-left: 40px;
+  }
+  .actions {
+    Button {
+      margin: 50px;
+    }
+  }
+}
+
+

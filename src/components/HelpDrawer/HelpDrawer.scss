@@ -1,0 +1,31 @@
+.drawer {
+  width: 425px;
+  .content {
+    width: 400px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    .explanation {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    .bullet {
+      display: flex;
+      margin: auto;
+      padding-top: 15px;
+      .text {
+        margin: auto;
+      }
+      .circle {
+        display: block;
+        border-radius: 50%;
+        min-height: 80px;
+        min-width: 80px;
+      }
+    }
+    .ok-button {
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+}

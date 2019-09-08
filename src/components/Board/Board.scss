@@ -1,0 +1,29 @@
+.board-table {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.board-button:disabled {
+  background-color: rgba(133, 77, 169, 0.75) !important;
+}
+
+.button-icon {
+  font-size: 34px;
+}
+
+.bottom-app-bar {
+  height: 9%;
+  top: auto !important;
+  bottom: 0;
+  .content {
+    display: flex;
+    .h3-l {
+      margin-left: 50px;
+    }
+    .h3-r {
+      margin-left: auto;
+      margin-right: 50px;
+    }
+  }
+}
+
